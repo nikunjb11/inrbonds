@@ -1,0 +1,88 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.+",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-clipboard": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-advanced-http": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-chooser": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "moodlemobile",
+      "ANDROID_SCHEME": " ",
+      "ANDROID_HOST": " ",
+      "ANDROID_PATHPREFIX": "/",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-file-opener2": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-geolocation": {
+      "GPS_REQUIRED": "false",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "cordova.plugins.diagnostic": {
+      "ANDROID_SUPPORT_VERSION": "28.+",
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    },
+    "nl.kingsquare.cordova.background-audio": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.moodle.moodlemobile"
+    }
+  }
+}
