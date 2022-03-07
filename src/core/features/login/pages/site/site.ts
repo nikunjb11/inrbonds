@@ -117,7 +117,18 @@ export class CoreLoginSitePage implements OnInit {
     ngOnInit(): void {
         this.showKeyboard = !!CoreNavigator.getRouteBooleanParam('showKeyboard');
     }
+    ngAfterViewInit() {
 
+        this.siteForm.controls.siteUrl.setValue('https://training.inrbonds.com/');
+        setTimeout(()=>{
+
+            this.searchSite(null,'https://training.inrbonds.com/');
+            this.connect(new Event('click'), 'https://training.inrbonds.com/');
+            this.siteForm.controls['siteUrl'].disable();
+
+        },500)
+
+    }
     /**
      * Initialize the site selector.
      *
@@ -434,7 +445,7 @@ export class CoreLoginSitePage implements OnInit {
      * @param e Event.
      * @param search Text to search.
      */
-    searchSite(e: Event, search: string): void {
+    searchSite(e: any, search: string): void {
         this.loadingSites = true;
 
         search = search.trim();
