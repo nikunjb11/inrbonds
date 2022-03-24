@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 
 import { CoreConfig } from '@services/config';
 import { CoreUtils } from '@services/utils/utils';
@@ -27,9 +27,23 @@ import { ModalController } from '@singletons';
     templateUrl: 'site-onboarding.html',
     styleUrls: ['site-onboarding.scss', '../../login.scss'],
 })
-export class CoreLoginSiteOnboardingComponent {
+export class CoreLoginSiteOnboardingComponent implements AfterViewInit {
+
+
 
     step = 0;
+
+
+
+    ngAfterViewInit(): void {
+
+        setTimeout(()=>{
+            this.skip(new Event('click'));
+        },300)
+
+        
+
+    }
 
     /**
      * Go to next step.

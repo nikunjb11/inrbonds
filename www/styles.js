@@ -439,7 +439,7 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/rajlaxmi/ionic/moodleapp/src/theme/theme.scss */"./src/theme/theme.scss");
+module.exports = __webpack_require__(/*! /Users/rajlaxmi/ionic/inrbonds/src/theme/theme.scss */"./src/theme/theme.scss");
 
 
 /***/ })

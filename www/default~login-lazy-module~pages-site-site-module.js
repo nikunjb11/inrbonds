@@ -158,6 +158,11 @@ let CoreLoginSiteOnboardingComponent = class CoreLoginSiteOnboardingComponent {
     constructor() {
         this.step = 0;
     }
+    ngAfterViewInit() {
+        setTimeout(() => {
+            this.skip(new Event('click'));
+        }, 300);
+    }
     /**
      * Go to next step.
      *
